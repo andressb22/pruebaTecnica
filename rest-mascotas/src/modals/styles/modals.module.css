@@ -1,0 +1,102 @@
+.btn_form{
+    height: 40px;
+    width: 50%;
+    background-color: #716090;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color:white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.contenedor{
+    position: absolute;
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor > div{
+    position: fixed;
+    background-color: White;
+    border-radius: 10px;
+    width: 32vw;
+    height: 75vh;
+    margin-top: 80px;
+}
+.cont_cerrar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.cont_datos{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px 10%;
+}
+.cont_inputs{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 0;
+}
+.cont_inputs > input{
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #203254;
+}
+.error{
+    color: red;
+    text-align: right;
+}
+.label_file{
+    background-color: #203254;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.label_file >input{
+    margin-top: 10px;
+    color:white
+}
+.label_file >label{
+    
+    color:white
+}
+.title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width:600px) {
+    
+    .contenedor > div{
+        position: fixed;
+        background-color: White;
+        border-radius: 10px;
+        width: 50vw;
+        height: 25vh;
+        margin-top: 80px;
+    }
+  }
+  @media (max-width:900px) and (min-width:601px) {
+    .contenedor > div{
+        width: 50vw;
+        height: 22vh;
+        margin-top: 150px;
+    }
+  }
+  @media   (min-width:1400px) {
+    .contenedor > div{
+        width: 30vw;
+        height: 33vh;
+        margin-top: 150px;
+    } 
+  }
