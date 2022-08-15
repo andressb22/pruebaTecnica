@@ -8,9 +8,9 @@
  y sustituirlo en la variable REACT_APP_ID_SERVER
 
   1-la variable queda asi:
-  REACT_APP_ID_SERVER = e7144fa1b76f4399a229cc3f0df326d9
-  2-instalar los dependencia y paquetes correspondientes ejecutando desde la carpeta raiz el comando npm install
-  3-depues ejecutar npm start en la caroeta raiz para poder ejecutar el programa de react        
+  REACT_APP_ID_SERVER = e7144fa1b76f4399a229cc3f0df326d9</br>
+  2-instalar los dependencia y paquetes correspondientes ejecutando desde la carpeta raiz el comando npm install</br>
+  3-depues ejecutar npm start en la caroeta raiz para poder ejecutar el programa de react</br>        
 
 
 <h1>2)</h1> el resultado de los palindromos se encuentra en la consola del navegador
