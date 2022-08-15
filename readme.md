@@ -1,5 +1,5 @@
 1)
-para ejecutar la aplicacion del rest solo se debe modificar el archivo .env
+para ejecutar la aplicacion del crud solo se debe modificar el archivo .env
 se debe poner el id que es generada por la pagina crudcrud
 
 por ejemplo https://crudcrud.com/api/e7144fa1b76f4399a229cc3f0df326d9 se debe agregar el id 
